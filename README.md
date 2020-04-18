@@ -1,2 +1,2 @@
 # MockProductPage
-Practice web design/development.
+Practice web design/development for an eCommerce application.
