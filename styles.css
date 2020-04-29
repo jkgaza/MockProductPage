@@ -72,14 +72,12 @@ p {
 
 .grid-item {
   background-color: #e7e5e0;
-  border: 1px solid black;
   padding: -20px;
-  margin: 5px;
   text-align: center;
   font-family: "Abel", sans-serif;
 }
 
 .product{
-    width: 40%;
+    width: 90%;
     height: auto;
 }
