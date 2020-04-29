@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #e7e5e0;
+  background-color: #F2F2F2;
 }
 
 .flex1 {
@@ -71,8 +71,8 @@ p {
 }
 
 .grid-item {
-  background-color: #e7e5e0;
-  padding: -20px;
+  background-color: #F2F2F2;
+  /* padding: 10px; */
   text-align: center;
   font-family: "Abel", sans-serif;
 }
