@@ -27,21 +27,26 @@ body{
 }
 
 .menu{
-    display: flex;
     position: fixed;
     padding-top: 20%;
+    padding-left: 5%;
 }
 
 button{
+    display: block;
     border-radius: 4.5px;
-    height: 35px;
-    width: 40%;
-    background-color: #133745;
+    padding: 7px;
+    margin: 7px;
+    background-color: #5B8990;
     color: white;
     font-family: 'Abel', sans-serif;
     font-size: large;
     cursor: pointer;
 
+}
+
+button:hover {
+    background-color: #133745;
 }
 
 .midcolumn {
