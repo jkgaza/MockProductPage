@@ -1,12 +1,12 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
 }
 
-body{
-    background-color: #E7E5E0;
+body {
+  background-color: #e7e5e0;
 }
 
 .flex1 {
@@ -14,39 +14,38 @@ body{
 }
 
 .static-column {
-  position: absolute;
-  background-color: #5B8990;
+  position: fixed;
+  background-color: #5b8990;
   width: 20%;
   height: 216.2%;
   padding-left: 15px;
   padding-top: 15px;
 }
 
-.logo{
-    position: fixed;
+.logo {
+  position: fixed;
 }
 
-.menu{
-    position: fixed;
-    padding-top: 20%;
-    padding-left: 5%;
+.menu {
+  position: fixed;
+  padding-top: 20%;
+  padding-left: 5%;
 }
 
-button{
-    display: block;
-    border-radius: 4.5px;
-    padding: 7px;
-    margin: 7px;
-    background-color: #5B8990;
-    color: white;
-    font-family: 'Abel', sans-serif;
-    font-size: large;
-    cursor: pointer;
-
+button {
+  display: block;
+  border-radius: 4.5px;
+  padding: 7px;
+  margin: 7px;
+  background-color: #5b8990;
+  color: white;
+  font-family: "Abel", sans-serif;
+  font-size: large;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: #133745;
+  background-color: #133745;
 }
 
 .midcolumn {
@@ -60,21 +59,27 @@ button:hover {
   height: 200%;
 }
 
-p{
-    font-family: 'Abel', sans-serif;
+p {
+  font-family: "Abel", sans-serif;
 }
 
-
 .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-    padding-right: 20px;
-  }
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  padding-right: 20px;
+}
+
+.grid-item {
+  background-color: #e7e5e0;
+  border: 1px solid black;
+  padding: -20px;
+  margin: 5px;
+  text-align: center;
+  font-family: "Abel", sans-serif;
+}
+
+.product{
+    width: 40%;
+    height: auto;
+}
