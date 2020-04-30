@@ -41,7 +41,7 @@ body {
   cursor: pointer;
 }
 
-button {
+.button {
   display: block;
   border-radius: 4.5px;
   padding: 7px;
@@ -53,7 +53,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   background-color: #133745;
 }
 
@@ -102,4 +102,17 @@ p {
   outline: 0;
 }
 
+.ico {
+  border-radius: 50%;
+  cursor: pointer;
+  fill: #232323;
+  transition: .4s;
+  
+}
 
+.liked {
+     transform: scale(1.05) rotate(360deg);
+     background-color: #C62828;
+     padding: .8rem;
+  fill: white;
+}
