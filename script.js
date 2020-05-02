@@ -4,8 +4,10 @@ likeBtn.addEventListener('click', function() {
      likeBtn.classList.toggle('liked');
 });
 
-// document.addEventListener('keydown', function(key){
-//    if(key.key === 'l' || key.key === 'L') {
-//       likeBtn.classList.toggle('liked');
-//    }
-// });
+
+// let likeBtn = document.getElementById('.container').querySelectorAll('.ico');
+
+// let i;
+// for (i = 0; i < likeBtn.length; i++) {
+//   likeBtn[i].style.backgroundColor = "red";
+// }

@@ -92,12 +92,9 @@ p {
   cursor: pointer;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: right;
-}
+/* .container {
+  display: flex; 
+} */
 
 .ico {
   border-radius: 50%;
