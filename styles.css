@@ -92,27 +92,23 @@ p {
   cursor: pointer;
 }
 
-.footer {
-  background-color: #133745;
-  height: 100px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: right;
 }
 
 .ico {
   border-radius: 50%;
   cursor: pointer;
   fill: #232323;
-  transition: .4s;
-  
+  transition: 0.4s;
 }
 
 .liked {
-     transform: scale(1.05) rotate(360deg);
-     background-color: #C62828;
-     padding: .8rem;
+  transform: scale(1.05) rotate(360deg);
+  background-color: #c62828;
+  padding: 0.8rem;
   fill: white;
 }
